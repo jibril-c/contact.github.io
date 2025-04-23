@@ -3,55 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Voices of Haram</title>
+    <title>Ramadan Contact</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sageo+Script&display=swap" rel="stylesheet">
     <style>
-        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f8f8f8; /* Light background */
             color: #333;
+            background-image: url('ramadan-background.jpg'); /* Replace with actual image path */
+            background-size: cover;
+            background-position: center;
         }
 
         header {
-            background-color: #222;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-             background-image: url("https://placehold.co/800x200/666/fff?text=Contact+Us&font=Montserrat");
-            background-size: cover;
-            background-position: center;
-            background-blend-mode: multiply;
+            display: none;
         }
 
-        header h1 {
-            color: white;
-            font-size: 2.5rem;
+        h1 {
+            color: #2a7d2e; /* Green */
+            font-size: 3rem;
             font-family: 'Sageo Script', cursive;
             font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-             background-color: rgba(0, 0, 0, 0.5);
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            margin: 0 15px;
-            color: #ccc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #8ac5d1;
         }
 
         section {
@@ -61,11 +40,57 @@
             text-align: center;
         }
 
-        section h2 {
-            color: #222;
-            border-bottom: 2px solid #ccc;
+        h2 {
+            color: #2a7d2e; /* Green */
+            font-size: 2.2rem;
+            border-bottom: 2px solid #8ac5d1;
             padding-bottom: 0.5rem;
-             text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .email-link {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .email-link a {
+            color: #0000ff; /* Changed to blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .email-link a:hover {
+            text-decoration: underline;
+        }
+
+        .instagram-link {
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .instagram-link a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .instagram-link a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -73,61 +98,45 @@
             color: #fff;
             text-align: center;
             padding: 1rem 0;
+            margin-top: 2rem;
+            border-top: 1px solid #fff;
         }
 
-        .contact-info {
-            margin-bottom: 1rem;
-            padding: 1rem;
-            background-color: #fff;
-            border-radius: 0.5rem;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-info h3 {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-
-        .contact-info p {
-            font-size: 1rem;
-            color: #34495e;
-            line-height: 1.6;
+        @media (max-width: 600px) {
+            section {
+                padding: 2rem 1rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="https://haram.github.io" target="_blank">Haram Updates</a> |
-            <a href="https://prayertimes.github.io" target="_blank">Prayer Times</a> |
-            <a href="https://specialevents.github.io" target="_blank">Special Events</a> |
-            <a href="https://recitation.github.io" target="_blank">Recitations</a> |
-            <a href="https://announcements.github.io" target="_blank">Announcements</a>
-        </nav>
-    </header>
+
+    <h1>Assalamu alaikum</h1>
 
     <section id="contact">
         <h2>Get in Touch</h2>
-        <p>For any inquiries or assistance, please use the following contact information.</p>
+        <p>
+            We'd love to hear from you during this blessed month of Ramadan!  For any inquiries or to connect with us, please use the contact information below.
+        </p>
+
         <div class="contact-info">
-            <h3>Email</h3>
-            <p>Email: contact@voicesofharam.com</p>
+            <p>
+                <strong>Connect on Instagram:</strong> <a href="https://instagram.com/zubei_z" target="_blank">@zubei_z</a>
+            </p>
         </div>
-        <div class="contact-info">
-            <h3>Phone</h3>
-            <p>Phone: +123 456 7890</p>
-        </div>
-        <div class="contact-info">
-            <h3>Mailing Address</h3>
-            <p>Voices of Haram<br>123 Islamic Street<br>Madinah, Kingdom of Saudi Arabia</p>
-        </div>
+
     </section>
 
     <footer>
         <p>© 2025 Voices of Haram. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+
